@@ -70,9 +70,9 @@ chats.start()
 def hello():
     return render_template('index.html')
 
-@app.route('/tennispoint')
-def tennispoint():
-    return render_template('tennis-point.html')
+@app.route('/lean')
+def lean():
+    return render_template('lean.html')
 
 @sockets.route('/submit')
 def inbox(ws):
